@@ -1,4 +1,4 @@
-import { Grid, Header, Icon, Button, Segment, Label, GridColumn } from "semantic-ui-react";
+import { Grid, Header, Icon, Button, Segment, Label, } from "semantic-ui-react";
 export default function Task(props) {
 const { task, deleteTask } = props;
 const { idTask, taskName, categoryTask } = task;
